@@ -1,0 +1,23 @@
+git config --global user.name "winterpassion"
+git config --global user.email "450831969@qq.com"
+cd到指定目录创建仓库 git init
+创建txt文件搬到仓库中 git add winter.txt
+添加到仓库中:git commit -m "第一次提交"
+git status  查看提交的状态
+git diff 查看修改具体内容
+get log 提交日志
+git log --pretty=oneline 一行显示日志
+git reset --hard HEAD^ 回退上个版本
+git reset --hard HEAD^ 回退上上个版本
+git reset --hard HEAD~100 回退100个版本
+git reset --hard 具体版本号(可以不写全 模糊匹配)
+git reflog 记录每一次命令
+
+
+git checkout --filrName(winter.txt) 让文件回到最后一次git commit或git add的状态
+
+ssh-keygen   -t   rsa -C "450831969@qq.com"
+ssh -T git@github.com 验证公钥是否可用
+
+git remote add origin 关联远程仓库
+git remote rm origin 删除远程关联
