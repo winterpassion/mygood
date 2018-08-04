@@ -1,5 +1,7 @@
-git config --global user.name "winterpassion"
-git config --global user.email "450831969@qq.com"
+
+https://www.bilibili.com/video/av17879644/?p=84
+git config --global user.name "~"
+git config --global user.email "~@qq.com"
 cd到指定目录创建仓库 git init
 创建txt文件搬到仓库中 git add winter.txt
 添加到仓库中:git commit -m "第一次提交"
@@ -16,7 +18,7 @@ git reflog 记录每一次命令
 
 git checkout --filrName(winter.txt) 让文件回到最后一次git commit或git add的状态
 
-ssh-keygen   -t   rsa -C "450831969@qq.com"
+ssh-keygen   -t   rsa -C "~@qq.com"
 ssh -T git@github.com 验证公钥是否可用
 
 git remote add origin 关联远程仓库
@@ -24,3 +26,4 @@ git remote rm origin 删除远程关联
 
  git pull origin master --allow-unrelated-histories先在远程git拉去数据保证同步
  git push origin master
+ .gitignore 文件中存放不上传的文件名
