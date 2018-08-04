@@ -21,3 +21,6 @@ ssh -T git@github.com 验证公钥是否可用
 
 git remote add origin 关联远程仓库
 git remote rm origin 删除远程关联
+
+ git pull origin master --allow-unrelated-histories先在远程git拉去数据保证同步
+ git push origin master
