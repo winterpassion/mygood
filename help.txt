@@ -27,3 +27,4 @@ git remote rm origin 删除远程关联
  git pull origin master --allow-unrelated-histories先在远程git拉去数据保证同步
  git push origin master
  .gitignore 文件中存放不上传的文件名
+2018/8/6
