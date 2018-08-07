@@ -1,4 +1,4 @@
-
+https://blog.csdn.net/qq_40784783/article/details/80610426 //安装redis
 https://www.bilibili.com/video/av17879644/?p=84
 git config --global user.name "~"
 git config --global user.email "~@qq.com"
@@ -27,4 +27,5 @@ git remote rm origin 删除远程关联
  git pull origin master --allow-unrelated-histories先在远程git拉去数据保证同步
  git push origin master
  .gitignore 文件中存放不上传的文件名
+
 2018/8/6
